@@ -23,9 +23,9 @@ Note: This builds the RPMS using the current master branch of each module
 ```
 $ docker run -v /rpms:/rpms  nginx_rpm:latest
 $ ls /rpms/RPMS/x86_64/                                                                  
-nginx-1.13.9-1.el7_4.ngx.x86_64.rpm
-nginx-debuginfo-1.13.9-1.el7_4.ngx.x86_64.rpm
-nginx-module-geoip2-1.13.9-1.el7_4.ngx.x86_64.rpm
-nginx-module-substitutions_filter-1.13.9-1.el7_4.ngx.x86_64.rpm
-nginx-module-vts-1.13.9-1.el7_4.ngx.x86_64.rpm
+nginx-1.15.0-1.el7_4.ngx.x86_64.rpm
+nginx-debuginfo-1.15.0-1.el7_4.ngx.x86_64.rpm
+nginx-module-geoip2-1.15.0-1.el7_4.ngx.x86_64.rpm
+nginx-module-substitutions_filter-1.15.0-1.el7_4.ngx.x86_64.rpm
+nginx-module-vts-1.15.0-1.el7_4.ngx.x86_64.rpm
 ```
